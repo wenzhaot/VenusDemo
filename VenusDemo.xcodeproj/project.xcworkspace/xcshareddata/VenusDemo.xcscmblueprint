@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1C94DA26E35DA7CB39BFCF6A364E264BC81F12A7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1C94DA26E35DA7CB39BFCF6A364E264BC81F12A7" : 0,
+    "56131298E978D077CB6757E90AF87484C9474B6F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C92AFD03-3071-46BA-86D5-9A90081B19AB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1C94DA26E35DA7CB39BFCF6A364E264BC81F12A7" : "Venus\/",
+    "56131298E978D077CB6757E90AF87484C9474B6F" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "VenusDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "samples\/VenusDemo\/VenusDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/git.9icaishi.net\/venus\/venus-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1C94DA26E35DA7CB39BFCF6A364E264BC81F12A7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/git.9icaishi.net\/capricorn\/vulcan-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "56131298E978D077CB6757E90AF87484C9474B6F"
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C91075901CBB9FD400E8A51D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C910758F1CBB9FD400E8A51D /* main.m */; };
+		C91075931CBB9FD400E8A51D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C91075921CBB9FD400E8A51D /* AppDelegate.m */; };
+		C91075991CBB9FD400E8A51D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C91075971CBB9FD400E8A51D /* Main.storyboard */; };
+		C910759B1CBB9FD400E8A51D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C910759A1CBB9FD400E8A51D /* Assets.xcassets */; };
+		C910759E1CBB9FD400E8A51D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C910759C1CBB9FD400E8A51D /* LaunchScreen.storyboard */; };
+		C9E333811CCE4500004DB932 /* NewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E3337A1CCE4500004DB932 /* NewsDetailViewController.m */; };
+		C9E333821CCE4500004DB932 /* NewsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E3337C1CCE4500004DB932 /* NewsListViewController.m */; };
+		C9E333831CCE4500004DB932 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E3337E1CCE4500004DB932 /* RootViewController.m */; };
+		C9E333841CCE4500004DB932 /* UIImageView+WebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E333801CCE4500004DB932 /* UIImageView+WebImage.m */; };
+		C9E333861CCE4750004DB932 /* Venus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E333851CCE4750004DB932 /* Venus.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C910758B1CBB9FD400E8A51D /* VenusDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenusDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C910758F1CBB9FD400E8A51D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C91075911CBB9FD400E8A51D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C91075921CBB9FD400E8A51D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C91075981CBB9FD400E8A51D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C910759A1CBB9FD400E8A51D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C910759D1CBB9FD400E8A51D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C910759F1CBB9FD400E8A51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E333791CCE4500004DB932 /* NewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailViewController.h; sourceTree = "<group>"; };
+		C9E3337A1CCE4500004DB932 /* NewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailViewController.m; sourceTree = "<group>"; };
+		C9E3337B1CCE4500004DB932 /* NewsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsListViewController.h; sourceTree = "<group>"; };
+		C9E3337C1CCE4500004DB932 /* NewsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsListViewController.m; sourceTree = "<group>"; };
+		C9E3337D1CCE4500004DB932 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C9E3337E1CCE4500004DB932 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C9E3337F1CCE4500004DB932 /* UIImageView+WebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebImage.h"; sourceTree = "<group>"; };
+		C9E333801CCE4500004DB932 /* UIImageView+WebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebImage.m"; sourceTree = "<group>"; };
+		C9E333851CCE4750004DB932 /* Venus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Venus.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C91075881CBB9FD400E8A51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E333861CCE4750004DB932 /* Venus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C91075821CBB9FD400E8A51D = {
+			isa = PBXGroup;
+			children = (
+				C910758D1CBB9FD400E8A51D /* VenusDemo */,
+				C910758C1CBB9FD400E8A51D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C910758C1CBB9FD400E8A51D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C910758B1CBB9FD400E8A51D /* VenusDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C910758D1CBB9FD400E8A51D /* VenusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C9E333851CCE4750004DB932 /* Venus.framework */,
+				C91075911CBB9FD400E8A51D /* AppDelegate.h */,
+				C91075921CBB9FD400E8A51D /* AppDelegate.m */,
+				C9E333791CCE4500004DB932 /* NewsDetailViewController.h */,
+				C9E3337A1CCE4500004DB932 /* NewsDetailViewController.m */,
+				C9E3337B1CCE4500004DB932 /* NewsListViewController.h */,
+				C9E3337C1CCE4500004DB932 /* NewsListViewController.m */,
+				C9E3337D1CCE4500004DB932 /* RootViewController.h */,
+				C9E3337E1CCE4500004DB932 /* RootViewController.m */,
+				C9E3337F1CCE4500004DB932 /* UIImageView+WebImage.h */,
+				C9E333801CCE4500004DB932 /* UIImageView+WebImage.m */,
+				C91075971CBB9FD400E8A51D /* Main.storyboard */,
+				C910759A1CBB9FD400E8A51D /* Assets.xcassets */,
+				C910759C1CBB9FD400E8A51D /* LaunchScreen.storyboard */,
+				C910759F1CBB9FD400E8A51D /* Info.plist */,
+				C910758E1CBB9FD400E8A51D /* Supporting Files */,
+			);
+			path = VenusDemo;
+			sourceTree = "<group>";
+		};
+		C910758E1CBB9FD400E8A51D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C910758F1CBB9FD400E8A51D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C910758A1CBB9FD400E8A51D /* VenusDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C91075A21CBB9FD400E8A51D /* Build configuration list for PBXNativeTarget "VenusDemo" */;
+			buildPhases = (
+				C91075871CBB9FD400E8A51D /* Sources */,
+				C91075881CBB9FD400E8A51D /* Frameworks */,
+				C91075891CBB9FD400E8A51D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VenusDemo;
+			productName = VenusDemo;
+			productReference = C910758B1CBB9FD400E8A51D /* VenusDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C91075831CBB9FD400E8A51D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = caishi;
+				TargetAttributes = {
+					C910758A1CBB9FD400E8A51D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C91075861CBB9FD400E8A51D /* Build configuration list for PBXProject "VenusDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C91075821CBB9FD400E8A51D;
+			productRefGroup = C910758C1CBB9FD400E8A51D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C910758A1CBB9FD400E8A51D /* VenusDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C91075891CBB9FD400E8A51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C910759E1CBB9FD400E8A51D /* LaunchScreen.storyboard in Resources */,
+				C910759B1CBB9FD400E8A51D /* Assets.xcassets in Resources */,
+				C91075991CBB9FD400E8A51D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C91075871CBB9FD400E8A51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E333811CCE4500004DB932 /* NewsDetailViewController.m in Sources */,
+				C9E333831CCE4500004DB932 /* RootViewController.m in Sources */,
+				C91075931CBB9FD400E8A51D /* AppDelegate.m in Sources */,
+				C9E333841CCE4500004DB932 /* UIImageView+WebImage.m in Sources */,
+				C91075901CBB9FD400E8A51D /* main.m in Sources */,
+				C9E333821CCE4500004DB932 /* NewsListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C91075971CBB9FD400E8A51D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C91075981CBB9FD400E8A51D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C910759C1CBB9FD400E8A51D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C910759D1CBB9FD400E8A51D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C91075A01CBB9FD400E8A51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C91075A11CBB9FD400E8A51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C91075A31CBB9FD400E8A51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../build\"",
+					"$(PROJECT_DIR)/VenusDemo",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = VenusDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caishi.VenusDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C91075A41CBB9FD400E8A51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../build\"",
+					"$(PROJECT_DIR)/VenusDemo",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = VenusDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caishi.VenusDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C91075861CBB9FD400E8A51D /* Build configuration list for PBXProject "VenusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91075A01CBB9FD400E8A51D /* Debug */,
+				C91075A11CBB9FD400E8A51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C91075A21CBB9FD400E8A51D /* Build configuration list for PBXNativeTarget "VenusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91075A31CBB9FD400E8A51D /* Debug */,
+				C91075A41CBB9FD400E8A51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C91075831CBB9FD400E8A51D /* Project object */;
+}
