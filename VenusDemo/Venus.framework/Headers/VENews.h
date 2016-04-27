@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+@import UIKit;
 
 /**
  *  新闻图片
@@ -38,6 +39,27 @@
  */
 @property (readonly, copy, nonatomic) NSString *src;
 
+
+/**
+ *  基于原图大小，按指定百分比缩放。其他相关规则可以参考http://developer.qiniu.com/code/v6/api/kodo-api/image/imagemogr2.html
+ *
+ *  @param scale 缩放比例，取值范围为0-100。
+ *
+ *  @return 处理后的链接
+ */
+- (NSString *)thumbnailUrlByScale:(float)scale;
+
+
+/**
+ *  当原图尺寸大于给定的宽度或高度时，按照给定宽高值缩小。否则返回原图。
+ *
+ *  @param size 指定尺寸大小
+ *
+ */
+- (NSString *)thumbnailUrlWithSize:(CGSize)size;
+
+
+
 @end
 
 
@@ -62,7 +84,7 @@
 @property (readonly, copy, nonatomic) NSString *summary;
 
 /**
- *  新闻图片链接
+ *  新闻图片
  */
 @property (readonly, strong, nonatomic) VENewsImage *newsImage;
 

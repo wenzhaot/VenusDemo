@@ -49,5 +49,8 @@
     [alert show];
 }
 
+- (void)detailView:(VENewsDetailView *)detailView didClickOrigin:(NSString *)srcLink {
+    NSLog(@"srcLink:%@", srcLink);
+}
 
 @end

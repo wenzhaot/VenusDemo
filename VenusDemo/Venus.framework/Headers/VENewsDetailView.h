@@ -61,8 +61,8 @@
 /**
  *  点击新闻内容中“查看原文”按钮
  *
- *  @param origin     原文链接
+ *  @param srcLink     原文链接
  */
-- (void)detailView:(VENewsDetailView *)detailView didClickOrigin:(NSString *)origin;
+- (void)detailView:(VENewsDetailView *)detailView didClickOrigin:(NSString *)srcLink;
 
 @end
