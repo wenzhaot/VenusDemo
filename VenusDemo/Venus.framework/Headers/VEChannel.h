@@ -13,16 +13,16 @@
 /**
  *  频道唯一标识
  */
-@property (readonly, copy, nonatomic) NSString *identifier;
+@property (copy, nonatomic) NSString *identifier;
 
 /**
  *  频道名称
  */
-@property (readonly, copy, nonatomic) NSString *name;
+@property (copy, nonatomic) NSString *name;
 
 /**
  *  是否属于推荐频道
  */
-@property (readonly, assign, nonatomic, getter=isRecommend) BOOL recommend;
+@property (assign, nonatomic, getter=isRecommend) BOOL recommend;
 
 @end

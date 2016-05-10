@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [VEConfig startWithAppId:@"1a75a8bd3d1601d54d7ae197fcc003c0" appSecret:@"2c24d2171625d42e6b016d0bb0afd4b6"];
+    [VEConfig startWithAppId:@"c9c3c3a604bf73f7369264609219d3cc" appSecret:@"5f41b799e3623d414fe0f5d9e0fe1288"];
     return YES;
 }
 

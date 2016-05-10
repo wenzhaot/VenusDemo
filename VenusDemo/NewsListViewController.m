@@ -8,7 +8,7 @@
 
 #import "NewsListViewController.h"
 #import "NewsDetailViewController.h"
-#import "UIImageView+WebImage.h"
+#import "UIImageView+WebCache.h"
 
 @interface NewsListViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -43,7 +43,7 @@
         [self.refreshControl endRefreshing];
         if (!error) {
             if (self.newsList) {
-                [self.newsList addObjectsFromArray:array];
+                [self.newsList insertObjects:array atIndexes:[NSIndexSet indexSetWithIndexesInRange:NSMakeRange(0, array.count)]];
             } else {
                 self.newsList = [NSMutableArray arrayWithArray:array];
             }
@@ -70,7 +70,8 @@
     // Pass the selected object to the new view controller.
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NewsDetailViewController *detailVC = [segue destinationViewController];
-        detailVC.news = self.newsList[[self.tableView indexPathForCell:sender].row];
+        VENews *news = self.newsList[[self.tableView indexPathForCell:sender].row];
+        detailVC.news = news;
     }
 }
 
@@ -86,7 +87,7 @@
     UILabel *titleLabel = (UILabel *)[cell.contentView viewWithTag:346];
     UILabel *summaryLabel = (UILabel *)[cell.contentView viewWithTag:347];
     VENews *news = self.newsList[indexPath.row];
-    [imageView loadImageWithURLString:news.newsImage.url];
+    [imageView sd_setImageWithURL:[NSURL URLWithString:news.newsImage.url]];
     [titleLabel setText:news.title];
     [summaryLabel setText:news.summary];
     return cell;

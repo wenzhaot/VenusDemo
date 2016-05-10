@@ -7,7 +7,7 @@
 //
 
 #import "NewsDetailViewController.h"
-
+#import "PhotoBrowserViewController.h"
 @import Venus;
 
 @interface NewsDetailViewController ()<VENewsDetailViewDelegate>
@@ -42,11 +42,10 @@
 }
 
 - (void)detailView:(VENewsDetailView *)detailView didClickImageList:(NSArray *)imageList atIndex:(NSUInteger)index {
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[NSString stringWithFormat:@"click (%ld/%ld)", index+1, imageList.count]
-                                                    message:nil
-                                                   delegate:nil
-                                          cancelButtonTitle:@"OK" otherButtonTitles:nil];
-    [alert show];
+    PhotoBrowserViewController *browser = [[PhotoBrowserViewController alloc] init];
+    browser.photoList = [NSArray arrayWithArray:imageList];
+    browser.initalPageIndex = index;
+    [self.navigationController pushViewController:browser animated:YES];
 }
 
 - (void)detailView:(VENewsDetailView *)detailView didClickOrigin:(NSString *)srcLink {

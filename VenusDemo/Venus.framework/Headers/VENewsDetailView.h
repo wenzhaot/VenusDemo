@@ -19,11 +19,21 @@
 @property (readonly, strong, nonatomic) UIWebView *webView;
 
 /**
+ *  是否显示查看原文按钮,如果YES则可实现delegate中的方法进行处理
+ */
+@property (assign, nonatomic) BOOL originDisplay;
+
+/**
  *  开始加载新闻内容
  *
  *  @param news 传入news对象
  */
 - (void)startLoadContentWithNews:(VENews *)news;
+
+/**
+ *  获取shareLink
+ */
+- (NSString *)getShareLink;
 
 @end
 

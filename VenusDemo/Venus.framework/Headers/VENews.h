@@ -17,27 +17,27 @@
 /**
  *  是否为gif图片
  */
-@property (readonly, assign, nonatomic) BOOL isGif;
+@property (assign, nonatomic) BOOL isGif;
 
 /**
  *  图片宽度
  */
-@property (readonly, assign, nonatomic) float width;
+@property (assign, nonatomic) float width;
 
 /**
  *  图片高度
  */
-@property (readonly, assign, nonatomic) float height;
+@property (assign, nonatomic) float height;
 
 /**
  *  图片url
  */
-@property (readonly, copy, nonatomic) NSString *url;
+@property (copy, nonatomic) NSString *url;
 
 /**
  *  gif动图可以采用该地址
  */
-@property (readonly, copy, nonatomic) NSString *src;
+@property (copy, nonatomic) NSString *src;
 
 
 /**
@@ -71,31 +71,41 @@
 /**
  *  新闻唯一标识
  */
-@property (readonly, copy, nonatomic) NSString *identifier;
+@property (copy, nonatomic) NSString *identifier;
 
 /**
  *  新闻标题
  */
-@property (readonly, copy, nonatomic) NSString *title;
+@property (copy, nonatomic) NSString *title;
 
 /**
  *  新闻概要
  */
-@property (readonly, copy, nonatomic) NSString *summary;
+@property (copy, nonatomic) NSString *summary;
 
 /**
  *  新闻图片
  */
-@property (readonly, strong, nonatomic) VENewsImage *newsImage;
+@property (strong, nonatomic) VENewsImage *newsImage;
 
 /**
  *  新闻来源
  */
-@property (readonly, copy, nonatomic) NSString *origin;
+@property (copy, nonatomic) NSString *origin;
 
 /**
  *  时间
  */
-@property (readonly, assign, nonatomic) NSTimeInterval createTime;
+@property (assign, nonatomic) NSTimeInterval createTime;
+
+/**
+ *  分享连接
+ */
+@property (copy, nonatomic) NSString *shareLink;
+
+/**
+ *  新闻类型
+ */
+@property (copy, nonatomic) NSString *newsType;
 
 @end

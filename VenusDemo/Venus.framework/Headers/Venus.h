@@ -15,5 +15,5 @@
 #import <Venus/VENewsDetailView.h>
 
 
-#define VENUS_VERSION_STRING @"1.0.0"
-#define VENUS_TARGET_PLATFORM_VERSION @"v1.0.0"
+#define VENUS_VERSION_STRING @"0.1.1"
+#define VENUS_TARGET_PLATFORM_VERSION @"v0.1.1"
